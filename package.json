@@ -1,0 +1,24 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "Simple QR code container page ",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --include-apt scss scss/style.scss scss/build.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonninout/qr-code-container.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yonninout/qr-code-container/issues"
+  },
+  "homepage": "https://github.com/Yonninout/qr-code-container#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

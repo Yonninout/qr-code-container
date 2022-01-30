@@ -16,3 +16,4 @@
 .prettierignore
 .idea
 breef
+node_modules
